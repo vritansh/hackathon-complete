@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #F3F3F3;
+        }
+        .container {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #FFFFFF;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        form input, form select {
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid #CCCCCC;
+        }
+        form button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #007BFF;
+            color: #FFFFFF;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        form button:hover {
+            background-color: #0056b3;
+        }
+        #emailLabel {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        #emailContent {
+            margin-top: 10px;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            color: #333;
+            font-size: 16px;
+            font-weight: normal;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .loading-dot {
+            animation: blink 1s linear infinite;
+        }
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="emailForm">
+            <h1>Email Generator</h1>
+            <input type="number" id="age" name="age" placeholder="Age" required>
+            <select id="gender" name="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <label for="purchased">Purchased before?</label>
+            <input type="checkbox" id="purchased" name="purchased">
+            <input type="number" id="salary" name="salary" placeholder="Estimated Salary" required>
+            <input type="text" id="profession" name="profession" placeholder="Profession" required>
+            <input type="text" id="twitterHandle" name="twitterHandle" placeholder="Twitter Handle">
+            <button type="submit">Generate Email</button>
+        </form>
+        <p id="emailLabel">Generated Email:</p>
+        <p id="emailContent"></p>
+    </div>
+
+    <script>
+        document.getElementById('emailForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            const data = {
+                "Age": document.getElementById('age').value,
+                "Gender": document.getElementById('gender').value,
+                "Purchased": document.getElementById('purchased').checked,
+                "EstimatedSalary": document.getElementById('salary').value,
+                "Profession": document.getElementById('profession').value,
+                "TwitterHandle": document.getElementById('twitterHandle').value
+            };
+
+            const pleaseWait = document.createElement('p');
+            pleaseWait.textContent = "Please wait ";
+            for (let i = 0; i < 3; i++) {
+                const dot = document.createElement('span');
+                dot.textContent = ".";
+                dot.classList.add('loading-dot');
+                pleaseWait.appendChild(dot);
+            }
+            document.querySelector('.container').appendChild(pleaseWait);
+
+            const response = await fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+
+            document.querySelector('.container').removeChild(pleaseWait);
+
+            const result = await response.json();
+            const emailContent = document.getElementById('emailContent');
+            emailContent.innerText = result.email;
+            emailContent.style.display = "block";
+        });
+    </script>
+</body>
+</html>

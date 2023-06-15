@@ -1,0 +1,13 @@
+openai
+flask
+joblib==1.2.0
+scikit-learn
+xgboost==1.6.2
+numpy
+pandas
+seaborn
+matplotlib
+nltk
+tweepy
+textblob
+dotenv
