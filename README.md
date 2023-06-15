@@ -1,17 +1,20 @@
 <h1> Capgemini’s Inclusive Data Hackathon - 2023 </h1>
 
-<h4> Topic : Enhancing Customer Engagement and Retention in Financial Services with Generative AI </h4>
+<h2> Topic : Enhancing Customer Engagement and Retention in Financial Services with Generative AI </h2>
+
+<h2> Presentation Link  </h2>
+
+https://docs.google.com/presentation/d/1HbyVhZ4IGuGbjQQRQ90HwjMZm5Qq706TbZukLwRg-ew/edit#slide=id.p
+
+Reference for dataset https://www.kaggle.com/datasets/denisadutca/customer-behaviour
+
+
 
 <h4> Screenshot of the App  </h4>
 
 ![alt text](https://github.com/vritansh/hackathon-complete/blob/main/snip.png?raw=true)
 
 
-<h6> Presentation Link  </h6>
-
-https://docs.google.com/presentation/d/1HbyVhZ4IGuGbjQQRQ90HwjMZm5Qq706TbZukLwRg-ew/edit#slide=id.p
-
-Reference for dataset https://www.kaggle.com/datasets/denisadutca/customer-behaviour
 
 
 <h6> Sample Customer Profile </h6>
