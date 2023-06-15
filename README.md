@@ -1,10 +1,19 @@
-# Hackathon
+<h1> Generative AI : Generating Emails for Customer Retention for Marketing Stocks <h1>
+
 
 Reference for dataset https://www.kaggle.com/datasets/denisadutca/customer-behaviour
 
-##### Generated API response 
+<h2> Presentation Link  </h2>
 
-Link to presentation : https://docs.google.com/presentation/d/1HbyVhZ4IGuGbjQQRQ90HwjMZm5Qq706TbZukLwRg-ew/edit#slide=id.p
+https://docs.google.com/presentation/d/1HbyVhZ4IGuGbjQQRQ90HwjMZm5Qq706TbZukLwRg-ew/edit#slide=id.p
+
+
+
+<h2> Screenshot of the App  </h2>
+
+![alt text](https://github.com/vritansh/hackathon-complete/blob/main/snip.png?raw=true)
+
+
 
 
 
