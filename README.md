@@ -1,11 +1,6 @@
 <h1> Generative AI : Generating Emails for Customer Retention for Marketing Stocks <h1>
 
 
-Reference for dataset https://www.kaggle.com/datasets/denisadutca/customer-behaviour
-
-<h2> Presentation Link  </h2>
-
-https://docs.google.com/presentation/d/1HbyVhZ4IGuGbjQQRQ90HwjMZm5Qq706TbZukLwRg-ew/edit#slide=id.p
 
 
 
@@ -16,6 +11,15 @@ https://docs.google.com/presentation/d/1HbyVhZ4IGuGbjQQRQ90HwjMZm5Qq706TbZukLwRg
 
 
 
+
+<h6> Presentation Link  </h6>
+
+https://docs.google.com/presentation/d/1HbyVhZ4IGuGbjQQRQ90HwjMZm5Qq706TbZukLwRg-ew/edit#slide=id.p
+
+Reference for dataset https://www.kaggle.com/datasets/denisadutca/customer-behaviour
+
+
+<h6> Sample Customer Profile </h6>
 
 Customer Profile and tweets 
 
@@ -30,6 +34,7 @@ Customer Profile and tweets
 }
 
 
+<h6> Sample Customer Email Generated </h6>
 
 
 Dear [Customer Name],
