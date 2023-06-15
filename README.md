@@ -1,6 +1,4 @@
-<h1> Generative AI : Generating Emails for Customer Retention for Marketing Stocks <h1>
-
-<h4> Capgemini’s Inclusive Data Hackathon - 2023 </h4>
+<h1> Capgemini’s Inclusive Data Hackathon - 2023 </h1>
 
 <h4> Topic : Enhancing Customer Engagement and Retention in Financial Services with Generative AI </h4>
 
