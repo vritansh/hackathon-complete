@@ -4,6 +4,9 @@ Reference for dataset https://www.kaggle.com/datasets/denisadutca/customer-behav
 
 ##### Generated API response 
 
+Link to presentation : https://docs.google.com/presentation/d/1HbyVhZ4IGuGbjQQRQ90HwjMZm5Qq706TbZukLwRg-ew/edit#slide=id.p
+
+
 
 Customer Profile and tweets 
 
