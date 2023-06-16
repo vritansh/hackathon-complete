@@ -1,13 +1,12 @@
 <h1> Capgemini’s Inclusive Data Hackathon - 2023 </h1>
 
-# Topic: *Enhancing Customer Engagement and Retention in Financial Services with Generative AI* </h2>
-# Generative AI-based Custom Marketing Project
+## Topic: *Enhancing Customer Engagement and Retention in Financial Services with Generative AI* </h2>
 
 This project undertakes a comprehensive analysis of customer behavior, leveraging demographic and Twitter data to generate tailored marketing emails via advanced generative AI techniques. The initiative is aimed at both existing and potential customers and seeks to facilitate the purchase of a specific stock.
 
 By aligning our marketing content with individual customer values and financial objectives, we aspire to resonate on a personal level. This project's ultimate objective is to maximize customer engagement and retention through the creation of hyper-relevant content.
 
-## Objectives
+### Objectives
 - **Customer Behavior Analysis**: Comprehensive analysis of customer behavior using demographic and Twitter data.
 - **AI-Generated Marketing**: Application of advanced generative AI techniques to create tailored marketing emails.
 - **Customer Engagement and Retention**: Maximize engagement and retention by aligning marketing content with customers' values and financial objectives.
