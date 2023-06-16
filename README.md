@@ -8,6 +8,9 @@ https://docs.google.com/presentation/d/1HbyVhZ4IGuGbjQQRQ90HwjMZm5Qq706TbZukLwRg
 
 Reference for dataset https://www.kaggle.com/datasets/denisadutca/customer-behaviour
 
+<h2> Video Link </h2>
+
+https://drive.google.com/file/d/1g3IQ8DvI7qkNP8cmUVw87XnfdotPx33X/view?usp=sharing
 
 
 <h4> Screenshot of the App  </h4>
