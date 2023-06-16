@@ -8,10 +8,6 @@ https://docs.google.com/presentation/d/1HbyVhZ4IGuGbjQQRQ90HwjMZm5Qq706TbZukLwRg
 
 Reference for dataset https://www.kaggle.com/datasets/denisadutca/customer-behaviour
 
-<h2> Video Link </h2>
-
-https://drive.google.com/file/d/1g3IQ8DvI7qkNP8cmUVw87XnfdotPx33X/view?usp=sharing
-
 
 
 https://github.com/vritansh/hackathon-complete/assets/16734727/c6fed8fa-08f5-4932-88f0-2da6798dbb95
@@ -19,17 +15,12 @@ https://github.com/vritansh/hackathon-complete/assets/16734727/c6fed8fa-08f5-493
 
 
 
-<h4> Screenshot of the App  </h4>
-
-![alt text](https://github.com/vritansh/hackathon-complete/blob/main/snip.png?raw=true)
-
-
 
 
 <h6> Sample Customer Profile </h6>
 
 Customer Profile and tweets 
-
+```json
 {
     "Age": 30,
     "Gender": "Male",
@@ -39,8 +30,8 @@ Customer Profile and tweets
     "Ever_Married": false,
     "Spending_Score": "High"
 }
-
-
+```
+---
 <h6> Sample Customer Email Generated </h6>
 
 
@@ -74,3 +65,4 @@ questions or concerns, please do not hesitate to reach out to me.
 
 Best regards,
 [Your Name]
+---
