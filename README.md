@@ -13,6 +13,12 @@ Reference for dataset https://www.kaggle.com/datasets/denisadutca/customer-behav
 https://drive.google.com/file/d/1g3IQ8DvI7qkNP8cmUVw87XnfdotPx33X/view?usp=sharing
 
 
+
+https://github.com/vritansh/hackathon-complete/assets/16734727/c6fed8fa-08f5-4932-88f0-2da6798dbb95
+
+
+
+
 <h4> Screenshot of the App  </h4>
 
 ![alt text](https://github.com/vritansh/hackathon-complete/blob/main/snip.png?raw=true)
