@@ -1,6 +1,6 @@
 <h1> Capgemini’s Inclusive Data Hackathon - 2023 </h1>
 
-<h1> Topic: Enhancing Customer Engagement and Retention in Financial Services with Generative AI </h1>
+<h2> Topic: *Enhancing Customer Engagement and Retention in Financial Services with Generative AI* </h2>
 # Generative AI-based Custom Marketing Project
 
 This project undertakes a comprehensive analysis of customer behavior, leveraging demographic and Twitter data to generate tailored marketing emails via advanced generative AI techniques. The initiative is aimed at both existing and potential customers and seeks to facilitate the purchase of a specific stock.
@@ -13,7 +13,7 @@ By aligning our marketing content with individual customer values and financial 
 - **Customer Engagement and Retention**: Maximize engagement and retention by aligning marketing content with customers' values and financial objectives.
 
 
-<h2> Presentation Link  </h2>
+<h3> Presentation Link  </h3>
 
 https://docs.google.com/presentation/d/1HbyVhZ4IGuGbjQQRQ90HwjMZm5Qq706TbZukLwRg-ew/edit#slide=id.p
 
@@ -28,7 +28,7 @@ https://github.com/vritansh/hackathon-complete/assets/16734727/c6fed8fa-08f5-493
 
 
 
-<h6> Sample Customer Profile </h6>
+<h4> Sample Customer Profile </h4>
 
 Customer Profile Data and tweets 
 ```json
@@ -43,7 +43,7 @@ Customer Profile Data and tweets
 }
 ```
 ---
-<h6> Sample Customized Email Generated </h6>
+<h4> Sample Customized Email Generated </h4>
 
 ~~~
 Dear [Customer Name],
