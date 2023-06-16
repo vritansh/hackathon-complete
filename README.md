@@ -34,7 +34,7 @@ Customer Profile and tweets
 ---
 <h6> Sample Customer Email Generated </h6>
 
-
+~~~
 Dear [Customer Name],
 
 
@@ -62,7 +62,7 @@ committed to sustainability and reducing its carbon footprint, which is somethin
 I hope that you will consider investing in Tesla and taking advantage of this great opportunity. If you have any
 questions or concerns, please do not hesitate to reach out to me.
 
-
 Best regards,
 [Your Name]
+~~~
 ---
